@@ -1,1 +1,50 @@
+export interface WeekData {
+  week: number
+  trimester: 1 | 2 | 3
+  babySize: string
+  babyDevelopment: string
+  motherTips: string
+}
 
+export const weeklyData: WeekData[] = [
+  { week: 1, trimester: 1, babySize: "Poppy seed", babyDevelopment: "Fertilization occurs. The egg and sperm unite to form a zygote, beginning the incredible journey of life.", motherTips: "Start taking prenatal vitamins with folic acid. Stay hydrated and maintain a balanced diet." },
+  { week: 2, trimester: 1, babySize: "Poppy seed", babyDevelopment: "The fertilized egg implants into the uterine wall. Cells begin rapidly dividing.", motherTips: "Avoid alcohol and smoking. Begin tracking your cycle and symptoms." },
+  { week: 3, trimester: 1, babySize: "Pinhead", babyDevelopment: "The blastocyst embeds deeper. The placenta begins to form, which will nourish your baby.", motherTips: "Rest well and reduce stress. It's a great time to start a pregnancy journal." },
+  { week: 4, trimester: 1, babySize: "Poppy seed", babyDevelopment: "The neural tube forms, which becomes the brain and spinal cord. The heart begins to develop.", motherTips: "You may notice a missed period. Take a pregnancy test and schedule your first prenatal visit." },
+  { week: 5, trimester: 1, babySize: "Sesame seed", babyDevelopment: "The heart begins to beat! Tiny buds appear that will become arms and legs.", motherTips: "Morning sickness may begin. Eat small, frequent meals and stay hydrated." },
+  { week: 6, trimester: 1, babySize: "Lentil", babyDevelopment: "Facial features begin forming: eyes, nose, ears, and chin. The brain is growing rapidly.", motherTips: "Fatigue is common. Listen to your body and rest when needed." },
+  { week: 7, trimester: 1, babySize: "Blueberry", babyDevelopment: "Hands and feet are emerging. The brain generates about 100 new cells per minute.", motherTips: "Stay away from raw fish, deli meats, and unpasteurized cheese." },
+  { week: 8, trimester: 1, babySize: "Raspberry", babyDevelopment: "All major organs have begun forming. Baby can make tiny movements, though you can't feel them yet.", motherTips: "Schedule your first ultrasound. Keep up with prenatal vitamins." },
+  { week: 9, trimester: 1, babySize: "Cherry", babyDevelopment: "Baby's skeleton begins forming with cartilage. Tiny earlobes and eyelids are visible.", motherTips: "Mood swings are normal due to hormonal changes. Practice deep breathing." },
+  { week: 10, trimester: 1, babySize: "Strawberry", babyDevelopment: "Vital organs are fully formed and beginning to function. Fingers and toes are no longer webbed.", motherTips: "Increase your water intake. Gentle stretching can help with body aches." },
+  { week: 11, trimester: 1, babySize: "Lime", babyDevelopment: "Baby can hiccup, swallow, and stretch. Tooth buds begin to form under the gums.", motherTips: "Eat iron-rich foods to prevent anemia. Consider gentle prenatal yoga." },
+  { week: 12, trimester: 1, babySize: "Plum", babyDevelopment: "Baby's reflexes develop: fingers curl, toes curl, eye muscles clench. The risk of miscarriage decreases significantly.", motherTips: "You've completed the first trimester! Many women start sharing the news now." },
+  { week: 13, trimester: 2, babySize: "Peach", babyDevelopment: "Baby's fingerprints form. Vocal cords are developing, preparing for that first cry.", motherTips: "Welcome to the second trimester! Energy levels often improve now." },
+  { week: 14, trimester: 2, babySize: "Lemon", babyDevelopment: "Baby can make facial expressions. The liver starts making bile and the spleen helps produce red blood cells.", motherTips: "Start sleeping on your side. A pregnancy pillow can help with comfort." },
+  { week: 15, trimester: 2, babySize: "Apple", babyDevelopment: "Baby is forming taste buds and can sense light through closed eyelids.", motherTips: "You may notice the 'pregnancy glow.' Stay moisturized to prevent stretch marks." },
+  { week: 16, trimester: 2, babySize: "Avocado", babyDevelopment: "Baby can hear sounds! The circulatory system is now fully functional.", motherTips: "You might start feeling baby's first movements (quickening). Keep a food diary." },
+  { week: 17, trimester: 2, babySize: "Pear", babyDevelopment: "Baby's skeleton hardens from cartilage to bone. Sweat glands are developing.", motherTips: "Stay active with low-impact exercises. Swimming is excellent during pregnancy." },
+  { week: 18, trimester: 2, babySize: "Sweet potato", babyDevelopment: "Baby can yawn, hiccup, and suck their thumb. Myelin coats the nerves.", motherTips: "Your anatomy scan ultrasound is approaching. You may learn baby's sex!" },
+  { week: 19, trimester: 2, babySize: "Mango", babyDevelopment: "A waxy coating called vernix protects baby's skin. Sensory development accelerates.", motherTips: "Round ligament pain may occur. Gentle stretches and warm baths can help." },
+  { week: 20, trimester: 2, babySize: "Banana", babyDevelopment: "You're halfway there! Baby can swallow and produces meconium. Legs are now proportional.", motherTips: "Celebrate the halfway mark! Consider starting a baby registry." },
+  { week: 21, trimester: 2, babySize: "Carrot", babyDevelopment: "Baby's movements become more coordinated. Eyebrows and eyelids are fully formed.", motherTips: "Practice pelvic floor exercises. They'll help during delivery and recovery." },
+  { week: 22, trimester: 2, babySize: "Papaya", babyDevelopment: "Baby's senses of touch and sound strengthen. They can hear your voice clearly.", motherTips: "Talk and sing to your baby. Bonding through voice is powerful." },
+  { week: 23, trimester: 2, babySize: "Grapefruit", babyDevelopment: "Baby responds to sounds and may startle at loud noises. Rapid weight gain begins.", motherTips: "Watch for signs of preeclampsia: swelling, headaches, or vision changes." },
+  { week: 24, trimester: 2, babySize: "Cantaloupe", babyDevelopment: "Baby's face is fully formed. Lungs develop branches and begin producing surfactant.", motherTips: "Glucose screening test is typically done now. Stay consistent with checkups." },
+  { week: 25, trimester: 2, babySize: "Cauliflower", babyDevelopment: "Baby's skin becomes less translucent as fat accumulates. Startle reflexes develop.", motherTips: "Heartburn may increase. Eat smaller meals and avoid spicy foods before bed." },
+  { week: 26, trimester: 2, babySize: "Lettuce head", babyDevelopment: "Baby's eyes begin to open. They can now see light and shadow.", motherTips: "Start thinking about your birth plan. Research your options and preferences." },
+  { week: 27, trimester: 2, babySize: "Rutabaga", babyDevelopment: "Baby sleeps and wakes regularly. Brain activity increases dramatically.", motherTips: "The third trimester begins next week! Rest up and prepare your nursery." },
+  { week: 28, trimester: 3, babySize: "Eggplant", babyDevelopment: "Baby can dream during REM sleep. Eyes can blink and respond to light. Weight gain accelerates.", motherTips: "Welcome to the third trimester. Prenatal visits increase to every two weeks." },
+  { week: 29, trimester: 3, babySize: "Butternut squash", babyDevelopment: "Baby's muscles and lungs mature. Bones absorb calcium and harden further.", motherTips: "Practice breathing techniques for labor. Attend a birthing class if you haven't." },
+  { week: 30, trimester: 3, babySize: "Cabbage", babyDevelopment: "Baby's brain grows rapidly with new neural connections. Lanugo hair begins to disappear.", motherTips: "Insomnia may be an issue. Maintain a calming bedtime routine." },
+  { week: 31, trimester: 3, babySize: "Coconut", babyDevelopment: "Baby's five senses are all functioning. They can process information and track light.", motherTips: "Pack your hospital bag. Include essentials for you, baby, and your partner." },
+  { week: 32, trimester: 3, babySize: "Jicama", babyDevelopment: "Baby practices breathing movements. Toenails, fingernails, and hair are present.", motherTips: "Braxton Hicks contractions may increase. Know the difference from real labor." },
+  { week: 33, trimester: 3, babySize: "Pineapple", babyDevelopment: "Baby's immune system strengthens. Bones continue hardening except the skull plates.", motherTips: "Swelling in feet and ankles is normal. Elevate your legs when resting." },
+  { week: 34, trimester: 3, babySize: "Cantaloupe", babyDevelopment: "Baby's lungs are almost fully mature. Central nervous system and lungs continue maturing.", motherTips: "Finalize your birth plan with your healthcare provider. Tour the hospital." },
+  { week: 35, trimester: 3, babySize: "Honeydew melon", babyDevelopment: "Baby settles into a head-down position. Kidneys are fully developed and the liver functions.", motherTips: "Install the car seat. Practice the drive to the hospital." },
+  { week: 36, trimester: 3, babySize: "Romaine lettuce", babyDevelopment: "Baby drops lower in the pelvis (lightening). Fat layers fill out cheeks and body.", motherTips: "Prenatal visits are now weekly. Watch for signs of labor." },
+  { week: 37, trimester: 3, babySize: "Swiss chard", babyDevelopment: "Baby is considered early term. All organs can function outside the womb. Practice breathing continues.", motherTips: "Rest as much as possible. Prepare freezer meals for after delivery." },
+  { week: 38, trimester: 3, babySize: "Leek", babyDevelopment: "Baby's brain and lungs mature continuously. Meconium accumulates in intestines.", motherTips: "Stay close to home. Keep your phone charged and your hospital bag ready." },
+  { week: 39, trimester: 3, babySize: "Watermelon", babyDevelopment: "Baby is full term! Chest becomes more prominent. Baby drops even lower in preparation.", motherTips: "Try to relax and enjoy these last days. Gentle walks can help encourage labor." },
+  { week: 40, trimester: 3, babySize: "Small pumpkin", babyDevelopment: "Baby is fully developed and ready for the world! Average weight is 6-9 pounds.", motherTips: "Your due date is here! If labor hasn't started, discuss induction options with your doctor." },
+]
